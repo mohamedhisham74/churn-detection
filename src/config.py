@@ -13,6 +13,6 @@ BASE_DIR=os.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 ARTIFAVTS_FOLDER_PATH=os.path.join(BASE_DIR,"artifacts")
 
-joblip.load(os.path.join(ARTIFAVTS_FOLDER_PATH,'preporcessor.pkl'))
-joblip.load(os.path.join(ARTIFAVTS_FOLDER_PATH,'forest_tuned.pkl'))
+preproccessor = joblip.load(os.path.join(ARTIFAVTS_FOLDER_PATH,'preporcessor.pkl'))
+model = joblip.load(os.path.join(ARTIFAVTS_FOLDER_PATH,'forest_tuned.pkl'))
 
