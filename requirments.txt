@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+seaborn
+skikit-learnn
+joblib
+imblearn
+pydantic
+fastapi
